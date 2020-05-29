@@ -1,0 +1,36 @@
+.ozplot {
+  width: 100%; }
+  .ozplot__error {
+    color: red; }
+  .ozplot > * {
+    margin-top: 1rem; }
+  .ozplot__textfield {
+    width: 100%; }
+    .ozplot__textfield textarea {
+      width: 100%;
+      height: 100px; }
+  .ozplot__axislabel {
+    font-weight: bold; }
+  .ozplot__x {
+    display: flex;
+    align-items: center; }
+    .ozplot__x > * {
+      margin-right: 1rem; }
+    .ozplot__x--label-time {
+      margin-left: 1rem; }
+    .ozplot__x--options {
+      margin-left: 2rem; }
+    .ozplot__x--useidx {
+      display: flex;
+      align-items: center; }
+  .ozplot__y {
+    display: flex;
+    align-items: center; }
+    .ozplot__y > * {
+      margin-right: 1rem; }
+  .ozplot__multi-axis {
+    display: flex;
+    align-items: center; }
+    .ozplot__multi-axis > * {
+      margin-right: 1rem;
+      margin-bottom: 1rem; }
